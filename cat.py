@@ -1,4 +1,4 @@
-# my first python program! 
+# my first python program! Hi! Are we learning git yet? 
 import sys
 for line in sys.stdin:
 	line=line.strip()
