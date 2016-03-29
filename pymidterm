@@ -1,0 +1,79 @@
+import random
+
+flower_lines = list()
+for line in open('1flower.txt'):
+    line = line.strip().title()
+    flower_lines.append(line)
+
+
+tree_lines = list()
+for line in open('2tree.txt'):
+    line = line.strip().title()
+    tree_lines.append(line)
+
+bird_lines = list()
+for line in open('3bird.txt'):
+    line = line.strip().title()
+    bird_lines.append(line)
+
+bridge_lines = list()
+for line in open('4bridge.txt'):
+    line = line.strip().title()
+    bridge_lines.append(line)
+
+water_lines = list()
+for line in open('5water.txt'):
+    line = line.strip().title()
+    water_lines.append(line)
+
+littleb_lines = list()
+for line in open('6littleb.txt'):
+    line = line.strip().title()
+    littleb_lines.append(line)
+
+road_lines = list()
+for line in open('7road.txt'):
+    line = line.strip().title()
+    road_lines.append(line)
+
+wind_lines = list()
+for line in open('8wind.txt'):
+    line = line.strip().title()
+    wind_lines.append(line)
+
+
+animal_lines = list()
+for line in open('9animal.txt'):
+    line = line.strip().title()
+    animal_lines.append(line)
+
+mood_lines = list()
+for line in open('mood.txt'):
+    line = line.strip()
+    mood_lines.append(line)
+
+
+for i in range(1):
+    random_flower = random.choice(flower_lines)
+    random_tree = random.choice(tree_lines)
+    random_bird = random.choice(bird_lines)
+    random_bridge = random.choice(bridge_lines)
+    random_water = random.choice(water_lines)
+    random_littleb = random.choice(littleb_lines)
+    random_road = random.choice(road_lines)
+    random_animal = random.choice(animal_lines)
+    random_wind = random.choice(wind_lines)
+    random_mood = random.choice(mood_lines)
+
+    print random_flower + "---" + random_tree + "---" + random_bird + ","
+    print random_bridge + "---" + random_water + "---" + random_littleb + ","
+    print random_road + "---" + random_wind + "---" + random_animal + ","
+    print "Sunset in the west"
+    print "A "+ random_mood + " man at the edge of the world." 
+
+
+
+
+
+
+
