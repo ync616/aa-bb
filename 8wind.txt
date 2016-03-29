@@ -1,0 +1,4 @@
+west wind
+north wind
+south wind
+east wind

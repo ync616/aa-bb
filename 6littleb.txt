@@ -1,0 +1,29 @@
+church
+temple
+mosque
+chapel
+cathedral
+parish
+shrine
+synagogue
+tower
+spire
+belfry
+lookout
+minaret
+pillar
+skyscraper
+turret  
+plaza
+tavern
+            pub
+inn
+bar
+           office
+         workplace
+workshop
+          dungeon
+            pit
+trap
+jail
+       

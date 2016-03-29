@@ -1,0 +1,7 @@
+river
+stream
+creek
+brook
+lake
+pond
+pool

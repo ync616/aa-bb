@@ -1,0 +1,9 @@
+forest
+          jungle
+wilderness
+woods
+    garden
+          park
+yard
+            desert
+            wasteland

@@ -1,0 +1,9 @@
+road
+path
+street
+trail
+lane
+passage
+crossroads
+intersection
+fork
