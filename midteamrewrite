@@ -1,0 +1,15 @@
+import random
+
+def readTxt(filename):
+    aline = list()
+    for line in open(filename):
+        line = line.strip()
+        aline.append(line)
+    return random.choice(aline) 
+   
+print readTxt('1flower.txt') + "---" + readTxt('2tree.txt') + "---" + readTxt('3bird.txt')+ ","
+print readTxt('4bridge.txt') + "---" + readTxt('5water.txt') + "---" + readTxt('6littleb.txt') + ","
+print readTxt('7road.txt') + "---" + readTxt('8wind.txt') + "---" + readTxt('9animal.txt') + ","
+print "Sunset in the west"
+print "A "+ readTxt('mood.txt') + " man at the edge of the world." 
+
